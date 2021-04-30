@@ -1,0 +1,114 @@
+body {
+  font-family: monospace;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  background-color: #e5e5e5;
+}
+
+.header {
+  padding: 25px;
+  text-align: center;
+  background: #fed86c;
+  color: black;
+  font-size: 50px;
+  border: 5px outset #787a7b;
+  border-radius: 50px;
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+  background: #fed86c;
+  color: black;
+  font-size: 50px;
+  border: 5px outset #787a7b;
+  border-radius: 50px;
+}
+
+table,
+td,
+th {
+  font-size: 20px;
+  border: 5px solid #787a7b;
+  border-radius: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  /* background-color: #012a4a; */
+  /* color: #eeeff0; */
+}
+
+tr:hover {
+  background-color: #212529;
+  color: white;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  margin: 10px;
+}
+
+.column-card {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  border: 5px outset;
+  border-radius: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px;
+  margin: 5px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #ffaa00;
+}
+
+button:active {
+  background-color: #ffea00;
+}
+button:focus {
+  background-color: #ffea00;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #0a2d6f;
+  color: skyblue;
+  border-color: #277acd;
+}
+
+.recovered {
+  background-color: #1b4332;
+  color: #95d5b2;
+  border-color: #20a646;
+}
+
+.dark {
+  background-color: #343a40;
+  color: #e9ecef;
+  border-color: #787a7b;
+}
