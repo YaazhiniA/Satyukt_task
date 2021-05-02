@@ -1,4 +1,4 @@
-import React, { Component, useContext } from "react";
+import React, { Component } from "react";
 import Table from "./common/Table";
 
 class CoronaTable extends Component {
